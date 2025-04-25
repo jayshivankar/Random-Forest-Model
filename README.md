@@ -1,11 +1,14 @@
 🌲 Random Forest Classification on Custom Dataset
+
 This repository demonstrates the application of the Random Forest algorithm for classification using a custom dataset (data.csv). The model is trained, evaluated, and visualized using Python libraries such as pandas, scikit-learn, and matplotlib.
 
 📁 Dataset
+
 The dataset used in this project is located in data.csv.
 It is assumed to be a tabular dataset suitable for classification tasks, with one target column and one or more feature columns.
 
 🧠 Model: Random Forest Classifier
+
 The Random Forest algorithm is an ensemble learning method that builds multiple decision trees and merges them together to get a more accurate and stable prediction.
 
 
