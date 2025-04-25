@@ -8,60 +8,31 @@ It is assumed to be a tabular dataset suitable for classification tasks, with on
 🧠 Model: Random Forest Classifier
 The Random Forest algorithm is an ensemble learning method that builds multiple decision trees and merges them together to get a more accurate and stable prediction.
 
-📌 Project Structure
-.
-├── data.csv                  # Input dataset
-├── random_forest_model.py    # Main script for training & evaluation
-├── requirements.txt          # Dependencies
-├── README.md                 # Project documentation
 
-🔧 Requirements
-Install required libraries:
-pip install -r requirements.txt
-Contents of requirements.txt:
-pandas
-scikit-learn
-matplotlib
+## 🧪 Steps Performed
 
+- Data loading and preprocessing
+- Train-test split
+- Random Forest model training
+- Evaluation using accuracy and classification report
+- Feature importance visualization (optional)
 
-🚀 How to Run
-Place your data.csv file in the root directory.
+## 🚀 Requirements
 
-Make sure the target column name is defined correctly in the script.
+Install the required Python libraries:
 
-Run the training script:
-python random_forest_model.py
-
-
-📝 Script Overview
-Data Loading: Reads data.csv using pandas.
-
-Preprocessing: Splits the data into features and target.
-
-Training: Applies a Random Forest classifier.
-
-Evaluation: Prints accuracy, confusion matrix, and classification report.
-
-Visualization: Optional feature importance plot.
+```bash
+pip install pandas scikit-learn matplotlib seaborn
 
 📊 Output
-Model Accuracy
+Accuracy and classification report printed to console
 
-Classification Report
+Optional feature importance plot for better interpretability
 
-Confusion Matrix
+📎 Notes
+Make sure to update "target" with the actual name of the label column.
 
-Feature Importance Plot (if enabled)
+You can tweak the number of estimators or other hyperparameters to improve performance.
 
-Accuracy: 0.87
-
-Classification Report:
-              precision    recall  f1-score   support
-           0       0.85      0.89      0.87       100
-           1       0.89      0.85      0.87       100
-
-Confusion Matrix:
-[[89 11]
- [15 85]]
 
 
